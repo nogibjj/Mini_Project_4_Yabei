@@ -1,5 +1,5 @@
 ```markdown
-# IDS706 Mini Project 2
+## IDS706 Mini Project 2
 
 This is a Python script for the IDS706 Mini Project 2. The script reads a CSV dataset, calculates descriptive statistics, and generates a histogram visualization. 
 
@@ -7,7 +7,7 @@ This is a Python script for the IDS706 Mini Project 2. The script reads a CSV da
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
 
 You will need to have the following packages installed:
 
@@ -21,7 +21,7 @@ You can install these packages using pip:
 pip install pandas seaborn matplotlib
 ```
 
-### Installing
+## Installing
 
 To use the script, first clone the repository to your local machine:
 
