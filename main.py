@@ -17,7 +17,7 @@ def load_data(data_path):
 
 def data_summary(data):
     main_sum = data.describe()
-    print(main_sum)
+    return main_sum
 
 
 def data_visual(data):
@@ -38,7 +38,7 @@ def data_visual(data):
     plt.show()
 def main():
     my_df = load_data("cars.csv")
-    data_summary(my_df)
+    print(data_summary(my_df))
     data_visual(my_df)
 
 
