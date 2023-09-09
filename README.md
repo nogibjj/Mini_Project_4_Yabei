@@ -44,26 +44,7 @@ To run the tests, use the following command:
 python testmain.py
 ```
 
-## Authors
+## Results preview
 
-- Your Name
+![project2_histogram](https://github.com/yabeizeng1121/mini_project_2/assets/143656459/dbbaef2c-d68c-4b8d-b59f-3de43f6f00ca)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Acknowledge any sources of inspiration, code snippets, etc.
-```
-
-This README includes sections for:
-
-- A brief description of the project
-- Instructions on how to get the project running on a local machine
-- Instructions on how to run the script and the tests
-- Information about the author(s)
-- License information
-- Acknowledgments
-
-You can add more sections as needed, such as a 'Usage' section with examples of how to use the script, a 'Contributing' section with guidelines for people who want to contribute to the project, etc.
