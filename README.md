@@ -1,4 +1,4 @@
-```markdown
+
 ## IDS706 Mini Project 2
 
 This is a Python script for the IDS706 Mini Project 2. The script reads a CSV dataset, calculates descriptive statistics, and generates a histogram visualization. 
