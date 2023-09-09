@@ -41,4 +41,6 @@ python testmain.py
 ## Results preview
 
 ![project2_histogram](https://github.com/yabeizeng1121/mini_project_2/assets/143656459/dbbaef2c-d68c-4b8d-b59f-3de43f6f00ca)
+![project2_data_summary](https://github.com/yabeizeng1121/mini_project_2/assets/143656459/63ece4a8-1697-440a-9fc7-8fd45b7b0a6c)
+
 
