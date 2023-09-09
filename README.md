@@ -35,7 +35,7 @@ python main.py
 To run the tests, use the following command:
 
 ```bash
-python testmain.py
+python test_main.py
 ```
 
 ## Results preview
