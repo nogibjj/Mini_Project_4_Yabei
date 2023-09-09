@@ -25,15 +25,8 @@ pip install pandas seaborn matplotlib
 
 To use the script, first clone the repository to your local machine:
 
-```bash
-git clone <repo_url>
-```
-
 Then navigate to the directory containing the script:
 
-```bash
-cd <directory>
-```
 
 ## Running the script
 
