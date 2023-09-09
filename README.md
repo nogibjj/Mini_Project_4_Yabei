@@ -1,40 +1,76 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
+```markdown
+# IDS706 Mini Project 2
 
-## 706-Data-Engineering-Template
+This is a Python script for the IDS706 Mini Project 2. The script reads a CSV dataset, calculates descriptive statistics, and generates a histogram visualization. 
 
-This is a repo template for course 706_Data_Engineering Mini Project. It contains:
+## Getting Started
 
-- ``.devcontainer`` including a Dockerfile and devcontainer.json
-                The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-- ``workflows`` including GitHub Actions, which contain configuration files for setting up automated build, test and deployment pipelines for your project.
+### Prerequisites
 
-- ``.gitignore`` this file is used to specify which files or directories should be excluded from vrsion control when using Git.
+You will need to have the following packages installed:
 
-- ``Makefile`` a makefile is a configuration file used in Unix-based systems for autmating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+- pandas
+- seaborn
+- matplotlib
 
-- ``README.md`` is the instrcation file for the readers.
+You can install these packages using pip:
 
-- ``main.py`` a python file.
+```bash
+pip install pandas seaborn matplotlib
+```
 
-- ``requirements.txt`` this file is to specify the dependencies (libraries and packages) required to run the project.
+### Installing
 
-- ``test_main.py`` is a test file for main.py that can successfully run in IDEs.
+To use the script, first clone the repository to your local machine:
 
-I use Github Actions to run the Makefile as follows: `make install`, `make test`, `make format`, `make lint`.The following pictures show the pass results:
+```bash
+git clone <repo_url>
+```
 
-<!-- <img decoding="async" src="https://github.com/carrieli15/706-Data-Engineering-Template/issues/1#issue-1885098942" width="50%">
+Then navigate to the directory containing the script:
 
-<img decoding="async" src="https://github.com/carrieli15/706-Data-Engineering-Template/issues/2#issue-1885099594" width="50%">
+```bash
+cd <directory>
+```
 
-<img decoding="async" src="https://github.com/carrieli15/706-Data-Engineering-Template/issues/3#issue-1885100877" width="50%">
+## Running the script
 
-<img decoding="async" src="https://github.com/carrieli15/706-Data-Engineering-Template/issues/4#issue-1885101545" width="50%"> -->
+To run the script, use the following command:
 
-![img](./img/1截屏2023-09-07%20上午12.22.54.png)
+```bash
+python main.py
+```
 
-![img](./img/2截屏2023-09-07%20上午12.16.53.png)
+## Running the tests
 
-![img](./img/3截屏2023-09-07%20上午12.22.26.png)
+To run the tests, use the following command:
 
-![img](./img/4截屏2023-09-07%20上午12.24.49.png)
+```bash
+python testmain.py
+```
+
+## Authors
+
+- Your Name
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+- Acknowledge any sources of inspiration, code snippets, etc.
+```
+
+This README includes sections for:
+
+- A brief description of the project
+- Instructions on how to get the project running on a local machine
+- Instructions on how to run the script and the tests
+- Information about the author(s)
+- License information
+- Acknowledgments
+
+You can add more sections as needed, such as a 'Usage' section with examples of how to use the script, a 'Contributing' section with guidelines for people who want to contribute to the project, etc.
