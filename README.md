@@ -21,12 +21,6 @@ You can install these packages using pip:
 pip install pandas seaborn matplotlib
 ```
 
-## Installing
-
-To use the script, first clone the repository to your local machine:
-
-Then navigate to the directory containing the script:
-
 
 ## Running the script
 
