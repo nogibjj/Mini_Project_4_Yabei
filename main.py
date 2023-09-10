@@ -36,11 +36,11 @@ def data_visual(data):
     plot.legend()
 
     plt.show()
-def main():
-    my_df = load_data("cars.csv")
-    print(data_summary(my_df))
-    data_visual(my_df)
+# def main():
+#     my_df = load_data("cars.csv")
+#     print(data_summary(my_df))
+#     data_visual(my_df)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
