@@ -44,4 +44,6 @@ python test_main.py
 
 ![project2_data_summary](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/973ed1da-948c-4aa4-b5fe-d5cd06da283e)
 
+![project2](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/94b139c6-00ee-4951-b487-c171d8cc06fc)
+
 
