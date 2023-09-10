@@ -46,7 +46,8 @@ python test_main.py
 
 ![project2](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/94b139c6-00ee-4951-b487-c171d8cc06fc)
 ![lint](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/8c98c760-57ec-4c26-9470-3755289acdc2)
-![test](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/b5287085-7551-4a2f-96b4-c61f7f7ebc6f)
+![test](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/68220046-4482-4a03-9a0a-37c80181e92b)
+
 
 
 ## Whats more
