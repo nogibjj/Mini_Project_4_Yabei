@@ -1,5 +1,4 @@
-
-from main import data_summary
+from main import data_summary, load_data, data_visual
 import pandas as pd
 
 def test_summary():
