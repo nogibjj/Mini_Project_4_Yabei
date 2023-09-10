@@ -46,4 +46,5 @@ python test_main.py
 
 ![project2](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/94b139c6-00ee-4951-b487-c171d8cc06fc)
 
-
+## Whats more
+There are files ending with .pdf and .ipynb, these are the more readable script run outputs with some brief conclusions
