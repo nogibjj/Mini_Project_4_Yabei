@@ -50,6 +50,8 @@ The `main.py` script is currently set to load data from a file named "cars.csv" 
 
 ## Output Preview
 ![Mini_project3_image](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/ee8f9c15-128f-441d-8273-86fa8d9a2c1c)
+![project3_data_summary](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/92379e73-69c9-4cde-babb-c17033e44d86)
+
 ![lint](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/7bf7a4f5-1f1a-483d-982f-e6458484212f)
 ![test](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/320a14c0-8c62-497d-95cc-cdc5bfe422c0)
 
