@@ -1,8 +1,8 @@
 # IDS706 Mini Project 2
 
-This project provides a Python script that reads a CSV dataset, returns a summary of the data, and visualizes it using various plots.
+This project provides a Python script that used polars and reads a CSV dataset named cars.csv, returns a summary of the data, and visualizes it using various plots.
 
-## Prerequisites
+## Getting Started
 
 You need to have Python installed on your machine. You can download it from [here](https://www.python.org/downloads/). The code is written in Python 3.
 
@@ -45,10 +45,6 @@ The `main.py` script contains the following functions:
 
 The `main.py` script is currently set to load data from a file named "cars.csv" in the same directory, and it specifically visualizes the "Weight" column. If you wish to use this script with a different dataset or visualize a different column, you will need to modify the `main()` function appropriately.
 
-## Output
+## Output Preview
+![Mini_project3_image](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/ee8f9c15-128f-441d-8273-86fa8d9a2c1c)
 
-The script will print a summary of the data to the console and display the four plots.
-
-## License
-
-This project is licensed under the terms of the MIT license.
