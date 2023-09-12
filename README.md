@@ -1,54 +1,54 @@
+# IDS706 Mini Project 2
 
-## IDS706 Mini Project 2
-
-This is a Python script for the IDS706 Mini Project 2. The script reads a CSV dataset, calculates descriptive statistics, and generates a histogram visualization. 
-
-## Getting Started
-
-Setting a copy of the project up and running on your local machine for development and testing purposes.
+This project provides a Python script that reads a CSV dataset, returns a summary of the data, and visualizes it using various plots.
 
 ## Prerequisites
 
-You will need to have the following packages installed:
+You need to have Python installed on your machine. You can download it from [here](https://www.python.org/downloads/). The code is written in Python 3.
 
-- pandas
-- seaborn
-- matplotlib
+The following Python packages are also required:
+- `polars`
+- `seaborn`
+- `matplotlib`
 
 You can install these packages using pip:
 
 ```bash
-pip install pandas seaborn matplotlib
+pip install polars seaborn matplotlib
 ```
 
+## File Description
 
-## Running the script
+`main.py`: This is the main script file that contains all the functions for loading the data, summarizing it, and visualizing it.
 
-To run the script, use the following command:
+## How to Run
+
+You can run the script by navigating to the directory containing the `main.py` file in your terminal and running the command:
 
 ```bash
 python main.py
 ```
 
-## Running the tests
+## Functions
 
-To run the tests, use the following command:
+The `main.py` script contains the following functions:
 
-```bash
-python test_main.py
-```
+- `load_data(data_path)`: This function reads a CSV file from the specified path and returns it as a Polars DataFrame. The data is expected to be semicolon-separated.
 
-## Results preview
+- `data_summary(data)`: This function takes a Polars DataFrame as input and returns a summary of the data. The summary includes the count, mean, standard deviation, minimum and maximum values, and the 25th, 50th, and 75th percentiles for each column.
 
-![project2_histogram](https://github.com/yabeizeng1121/mini_project_2/assets/143656459/dbbaef2c-d68c-4b8d-b59f-3de43f6f00ca)
+- `data_visual(data)`: This function takes a Polars DataFrame as input and generates four types of plots for the "Weight" column of the data: a box plot, a violin plot, a cumulative distribution function (CDF) plot, and a kernel density estimate (KDE) plot.
 
-![project2_data_summary](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/973ed1da-948c-4aa4-b5fe-d5cd06da283e)
+- `main()`: This is the main function that calls the other functions. It loads the data from the "cars.csv" file, prints the data summary, and generates the plots.
 
-![project2](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/94b139c6-00ee-4951-b487-c171d8cc06fc)
-![lint](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/8c98c760-57ec-4c26-9470-3755289acdc2)
-![test](https://github.com/nogibjj/Mini_project_2_Yabei/assets/143656459/68220046-4482-4a03-9a0a-37c80181e92b)
+## Note
 
+The `main.py` script is currently set to load data from a file named "cars.csv" in the same directory, and it specifically visualizes the "Weight" column. If you wish to use this script with a different dataset or visualize a different column, you will need to modify the `main()` function appropriately.
 
+## Output
 
-## Whats more
-There are files ending with .pdf and .ipynb, these are the more readable script run outputs with some brief conclusions
+The script will print a summary of the data to the console and display the four plots.
+
+## License
+
+This project is licensed under the terms of the MIT license.
