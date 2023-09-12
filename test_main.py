@@ -4,8 +4,8 @@ import polars as pl
 def test_summary():
     my_df = pl.read_csv('cars.csv', separator=';')
     summary = data_summary(my_df)
-    mean = my_df['Weight'].mean().get(0)
-    median = my_df['Weight'].median().get(0)
+    mean = my_df['Weight'].mean()
+    median = my_df['Weight'].median()
     assert mean == summary['mean']['Weight'], "Mean test failed"
     assert median == summary['50%']['Weight'], "Median test failed"
 
