@@ -6,8 +6,6 @@ def test_summary():
     summary = data_summary(my_df)
     mean = my_df['Weight'].mean()
     median = my_df['Weight'].median()
-    mean_value = summary['Weight']['mean']
-    median_value = summary['Weight']['50%']
 
 
 def test_load_data():
