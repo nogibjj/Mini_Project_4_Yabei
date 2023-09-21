@@ -1,4 +1,4 @@
-# IDS706 Mini Project 2
+# IDS706 Mini Project 3
 
 This project provides a Python script that used polars and reads a CSV dataset named cars.csv, returns a summary of the data, and visualizes it using various plots.
 
