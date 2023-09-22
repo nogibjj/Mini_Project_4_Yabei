@@ -1,58 +1,21 @@
-# IDS706 Mini Project 3
+# IDS706 Mini Project 4
+## Requirements
 
-This project provides a Python script that used polars and reads a CSV dataset named cars.csv, returns a summary of the data, and visualizes it using various plots.
+- Set up a GitHub Actions workflow.
+- Test across at least 3 different Python versions.
 
-## Getting Started
+## GitHub Actions Workflow
 
-You need to have Python installed on your machine. You can download it from [here](https://www.python.org/downloads/). The code is written in Python 3.
+The GitHub Actions workflow is configured to run on every push and pull request to the `main` branch. It tests the code across three different Python versions: 3.8, 3.x (latest stable release), and 3.11, on both Ubuntu and Windows.
 
-The following Python packages are also required:
-- `polars`
-- `seaborn`
-- `matplotlib`
+### Workflow Steps
 
-You can install these packages using pip:
-
-```bash
-pip install polars seaborn matplotlib
-```
-
-## File Description
-
-`main.py`: This is the main script file that contains all the functions for loading the data, summarizing it, and visualizing it.
-
-## How to Run
-
-You can run the script by navigating to the directory containing the `main.py` and `test_main.py` file in your terminal and running the command:
-
-```bash
-python main.py
-```
-```bash
-python test_main.py
-```
-
-## Functions
-
-The `main.py` script contains the following functions:
-
-- `load_data(data_path)`: This function reads a CSV file from the specified path and returns it as a Polars DataFrame. The data is expected to be semicolon-separated.
-
-- `data_summary(data)`: This function takes a Polars DataFrame as input and returns a summary of the data. The summary includes the count, mean, standard deviation, minimum and maximum values, and the 25th, 50th, and 75th percentiles for each column.
-
-- `data_visual(data)`: This function takes a Polars DataFrame as input and generates four types of plots for the "Weight" column of the data: a box plot, a violin plot, a cumulative distribution function (CDF) plot, and a kernel density estimate (KDE) plot.
-
-- `main()`: This is the main function that calls the other functions. It loads the data from the "cars.csv" file, prints the data summary, and generates the plots.
-
-## Note
-
-The `main.py` script is currently set to load data from a file named "cars.csv" in the same directory, and it specifically visualizes the "Weight" column. If you wish to use this script with a different dataset or visualize a different column, you will need to modify the `main()` function appropriately.
-
-## Output Preview
-![Mini_project3_image](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/ee8f9c15-128f-441d-8273-86fa8d9a2c1c)
-![project3_data_summary](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/92379e73-69c9-4cde-babb-c17033e44d86)
-
-![lint](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/7bf7a4f5-1f1a-483d-982f-e6458484212f)
-![test](https://github.com/yabeizeng1121/Mini_project_3/assets/143656459/320a14c0-8c62-497d-95cc-cdc5bfe422c0)
-
+1. **Checkout Code**: Checks out the repository code.
+2. **Set up Python**: Sets up the specified Python version.
+3. **Cache Python Packages**: Caches Python packages for faster workflow runs.
+4. **Install Packages**: Installs the required packages specified in the `Makefile`.
+5. **List Installed Packages**: Lists all installed Python packages.
+6. **Lint**: Runs linting using the commands specified in the `Makefile`.
+7. **Test**: Runs the tests using `pytest`.
+8. **Format**: Formats the code using the commands specified in the `Makefile`.
 
