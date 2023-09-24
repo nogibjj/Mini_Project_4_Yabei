@@ -19,6 +19,22 @@ The GitHub Actions workflow is configured to run on every push and pull request 
 7. **Test**: Runs the tests using `pytest`.
 8. **Format**: Formats the code using the commands specified in the `Makefile`.
 
+## Running the script
+
+To run the script, use the following command:
+
+```bash
+python main.py
+```
+
+## Running the tests
+
+To run the tests, use the following command:
+
+```bash
+python test_main.py
+```
+
 ### Results Preview
 Here is the actions workflow:
 
